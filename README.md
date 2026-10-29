@@ -29,3 +29,19 @@ git branch -M main
 git remote add origin <your-repo-url>
 git push -u origin main
 ```
+## 👥 Phân công công việc (Task Assignment)
+
+### 1. Thành viên 1: Database & Business Logic
+- [ ] Thiết kế các lớp Entity (`Account`, `Employee`, `WorkLog`, `Salary`)
+- [ ] Cấu hình `AppDatabase` và triển khai các interface DAO (`AccountDao`, `EmployeeDao`, `WorkLogDao`, `SalaryDao`)
+- [ ] Xây dựng logic tính toán giờ làm chuẩn, tăng ca và tiền lương trong `SalaryService` & `AttendanceService`
+
+### 2. Thành viên 2: Phân hệ Quản trị (Admin Module)
+- [ ] Phát triển `AdminMainActivity` (Danh sách nhân viên, tìm kiếm, tính lương)
+- [ ] Phát triển `AdminSalaryActivity` (Quản lý và thống kê bảng lương)
+- [ ] Triển khai `EmployeeEditActivity` (Thêm/Sửa/Xóa thông tin nhân viên)
+
+### 3. Thành viên 3: Đăng nhập, Phân hệ Nhân viên & Tiện ích
+- [ ] Xây dựng `LoginActivity` và quản lý phiên làm việc `SessionManager`
+- [ ] Phát triển `EmployeeMainActivity` & `EmployeeSalaryActivity` cho nhân viên
+- [ ] Thiết kế XML layout, các lớp `Utils` và viết tài liệu báo cáo / file README
